@@ -12,7 +12,7 @@
     "skipLibCheck": true,
     "strict": true,
     "paths": {
-      "@kycaid/react-native-sdk": ["src/index"]
+      "kycaid-react-native-sdk": ["src/index"]
     },
     "target": "esnext",
   },

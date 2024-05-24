@@ -1,5 +1,5 @@
 import React, { FC, ReactElement, useEffect, useRef } from 'react';
-import { WebView } from '@kycaid/react-native-webview';
+import { WebView } from 'react-native-webview';
 import { Provider, useDispatch, useSelector } from 'react-redux';
 import { store } from './store/store';
 import {

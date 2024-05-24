@@ -7,7 +7,7 @@ module.exports = {
         root: ['./'],
         extensions: ['.ts', '.tsx', '.js', '.json'],
         alias: {
-          '@kycaid/react-native-sdk': './src/index',
+          'kycaid-react-native-sdk': './src/index',
         },
       },
     ],

@@ -7,7 +7,7 @@ import {
   Platform,
   Alert
 } from 'react-native';
-import { KYCAID, VerificationData } from '@kycaid/react-native-sdk'
+import { KYCAID, VerificationData } from 'kycaid-react-native-sdk'
 
 function App() {
   const handleVerificationCallback = (data?: VerificationData) => {
@@ -58,6 +58,6 @@ const styles = StyleSheet.create({
     paddingTop: Platform.OS === 'android' ? 25 : 0,
   },
   webView: {
-    backgroundColor: '#f0f3f9',
+    backgroundColor: '##A8E4A0',
   }
 });

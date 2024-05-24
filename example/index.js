@@ -8,7 +8,7 @@ import {
 import App from './App'
 
 Garden.setStyle({
-  screenBackgroundColor: '#F8F8F8',
+  screenBackgroundColor: '#F888F8',
   topBarStyle: BarStyleDarkContent,
   statusBarColorAndroid: Platform.Version > 21 ? undefined : '#4A4A4A',
 })

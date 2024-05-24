@@ -14,7 +14,7 @@ $ npm install @kyciad/react-native-sdk
 ```jsx
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import { KYCAID } from '@kycaid/react-native-sdk';
+import { KYCAID } from 'kycaid-react-native-sdk';
 
 function App() {
     const handleVerificationCallback = (data) => {
